@@ -1,0 +1,9 @@
+{
+    "quiz_id_1": [
+        { "nom": "Alice Dupont", "score": 15 },
+        { "nom": "Bob Martin", "score": 10 }
+    ],
+    "quiz_1738665036": [
+        { "nom": "Charlie Durand", "score": 20 }
+    ]
+}
