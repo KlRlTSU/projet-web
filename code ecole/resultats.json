@@ -1,9 +1,27 @@
 {
-    "quiz_id_1": [
-        { "nom": "Alice Dupont", "score": 15 },
-        { "nom": "Bob Martin", "score": 10 }
-    ],
-    "quiz_1738665036": [
-        { "nom": "Charlie Durand", "score": 20 }
-    ]
+    "quiz_id_1": {
+        "participants": [
+            {
+                "nom": "Alice",
+                "score": 8,
+                "reponses": [
+                    0,
+                    2,
+                    1,
+                    "C'\u00e9tait un tournant majeur.",
+                    "Je pense que c'\u00e9tait violent mais n\u00e9cessaire."
+                ]
+            },
+            {
+                "nom": "Bob",
+                "score": 5,
+                "reponses": [
+                    1,
+                    0,
+                    1,
+                    "Je pense que c'\u00e9tait violent mais n\u00e9cessaire."
+                ]
+            }
+        ]
+    }
 }

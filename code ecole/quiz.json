@@ -6,6 +6,7 @@
             {
                 "id": 1,
                 "question": "Quelle est la bonne syntaxe pour afficher du texte en PHP ?",
+                "type": "qcm",
                 "reponses": [
                     "echo 'Bonjour';",
                     "print('Bonjour')",
@@ -17,6 +18,7 @@
             {
                 "id": 2,
                 "question": "Qui es-tu ?",
+                "type": "qcm",
                 "reponses": [
                     "quelqu'un",
                     "personne",
@@ -28,6 +30,7 @@
             },
             {
                 "question": "Que fais tu ?",
+                "type": "qcm",
                 "reponses": [
                     "r\u00e9pond \u00e0 ce quiz",
                     "rien",
@@ -35,6 +38,24 @@
                 ],
                 "bonne_reponse": 0,
                 "points": 4
+            },
+            {
+                "question": "Que penses-tu de la vie ?",
+                "type": "libre",
+                "points": 10,
+                "reponses": []
+            },
+            {
+                "question": "Que penses-tu de la mort ?",
+                "type": "libre",
+                "points": 10,
+                "reponses": []
+            },
+            {
+                "question": "Qui es-tu ?",
+                "type": "libre",
+                "points": 2,
+                "reponses": []
             }
         ]
     }

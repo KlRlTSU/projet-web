@@ -11,7 +11,7 @@ if (!$quizId || !isset($quizData[$quizId])) {
 }
 
 $quiz = $quizData[$quizId];
-$participants = $resultatsData[$quizId] ?? [];
+$participants = $resultatsData[$quizId]["participants"] ?? [];
 
 echo "<h2>Résultats du Quiz : " . htmlspecialchars($quiz["nom"]) . "</h2>";
 

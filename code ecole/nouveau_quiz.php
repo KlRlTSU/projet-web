@@ -19,5 +19,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-header("Location: hub.php");
+header("Location: dashboard_entreprise.php");
 ?>
