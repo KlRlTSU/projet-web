@@ -1,0 +1,62 @@
+{
+    "quiz_id_1": {
+        "nom": "Quiz sur PHP",
+        "etat": "termine",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Quelle est la bonne syntaxe pour afficher du texte en PHP ?",
+                "type": "qcm",
+                "reponses": [
+                    "echo 'Bonjour';",
+                    "print('Bonjour')",
+                    "Console.WriteLine('Bonjour');"
+                ],
+                "bonne_reponse": 0,
+                "points": 5
+            },
+            {
+                "id": 2,
+                "question": "Qui es-tu ?",
+                "type": "qcm",
+                "reponses": [
+                    "quelqu'un",
+                    "personne",
+                    "un con",
+                    "toi"
+                ],
+                "bonne_reponse": 0,
+                "points": 10
+            },
+            {
+                "question": "Que fais tu ?",
+                "type": "qcm",
+                "reponses": [
+                    "r\u00e9pond \u00e0 ce quiz",
+                    "rien",
+                    "mange"
+                ],
+                "bonne_reponse": 0,
+                "points": 4
+            },
+            {
+                "question": "Que penses-tu de la vie ?",
+                "type": "libre",
+                "points": 10,
+                "reponses": []
+            },
+            {
+                "question": "Que penses-tu de la mort ?",
+                "type": "libre",
+                "points": 10,
+                "reponses": []
+            },
+            {
+                "question": "Qui es-tu ?",
+                "type": "libre",
+                "points": 2,
+                "reponses": []
+            }
+        ]
+    }
+}
